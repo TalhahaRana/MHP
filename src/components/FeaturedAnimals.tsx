@@ -55,12 +55,12 @@ const FeaturedAnimals = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {animals.map((animal) => (
-            <Card key={animal.id} className="overflow-hidden hover:shadow-warm transition-all duration-300 hover:-translate-y-2">
+            <Card key={animal.id} className="overflow-hidden hover:shadow-warm transition-all duration-300 hover:-translate-y-2 group animate-scale-in">
               <div className="relative">
                 <img
                   src={animal.image}
                   alt={animal.name}
-                  className="w-full h-64 object-cover"
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 {animal.urgent && (
                   <Badge className="absolute top-4 right-4 bg-accent text-accent-foreground">
@@ -77,8 +77,8 @@ const FeaturedAnimals = () => {
               <CardContent className="p-6">
                 <div className="flex items-center justify-between mb-3">
                   <h3 className="text-2xl font-bold text-foreground">{animal.name}</h3>
-                  <Button size="sm" variant="ghost" className="p-2">
-                    <Heart className="w-5 h-5 text-muted-foreground hover:text-primary" />
+                  <Button size="sm" variant="ghost" className="p-2 hover-scale">
+                    <Heart className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors" />
                   </Button>
                 </div>
                 
@@ -97,10 +97,10 @@ const FeaturedAnimals = () => {
                 </p>
                 
                 <div className="flex gap-3">
-                  <Button variant="default" className="flex-1">
+                  <Button variant="default" className="flex-1 hover-scale">
                     Meet {animal.name}
                   </Button>
-                  <Button variant="outline" size="sm">
+                  <Button variant="outline" size="sm" className="hover-scale">
                     <Heart className="w-4 h-4" />
                   </Button>
                 </div>
@@ -110,7 +110,7 @@ const FeaturedAnimals = () => {
         </div>
 
         <div className="text-center">
-          <Button variant="outline" size="lg" className="text-lg px-8 py-4">
+          <Button variant="outline" size="lg" className="text-lg px-8 py-4 hover-scale">
             View All Available Pets
           </Button>
         </div>

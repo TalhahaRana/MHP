@@ -16,7 +16,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
         <div className="mb-6">
-          <PawPrint className="w-16 h-16 mx-auto mb-4 text-white/90" />
+          <PawPrint className="w-16 h-16 mx-auto mb-4 text-white/90 animate-bounce-gentle" />
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
@@ -30,27 +30,27 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button variant="hero" size="lg" className="text-lg px-8 py-4">
+          <Button variant="hero" size="lg" className="text-lg px-8 py-4 hover-scale">
             <Heart className="w-5 h-5 mr-3" />
             Adopt a Friend
           </Button>
           
-          <Button variant="outline" size="lg" className="text-lg px-8 py-4 bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20">
+          <Button variant="outline" size="lg" className="text-lg px-8 py-4 bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20 hover-scale">
             Learn Our Story
           </Button>
         </div>
 
         {/* Stats */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover-scale">
             <div className="text-3xl font-bold text-accent mb-2">2,500+</div>
             <div className="text-white/80">Animals Rescued</div>
           </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover-scale">
             <div className="text-3xl font-bold text-accent mb-2">1,800+</div>
             <div className="text-white/80">Forever Homes</div>
           </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover-scale">
             <div className="text-3xl font-bold text-accent mb-2">15+</div>
             <div className="text-white/80">Years of Service</div>
           </div>

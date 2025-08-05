@@ -55,11 +55,11 @@ const SuccessStories = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
           {stories.map((story) => (
-            <Card key={story.id} className="hover:shadow-warm transition-all duration-300 hover:-translate-y-2">
+            <Card key={story.id} className="hover:shadow-warm transition-all duration-300 hover:-translate-y-2 group animate-scale-in">
               <CardContent className="p-8">
                 {/* Header */}
                 <div className="text-center mb-6">
-                  <div className="text-6xl mb-4">{story.image}</div>
+                  <div className="text-6xl mb-4 animate-bounce-gentle">{story.image}</div>
                   <h3 className="text-2xl font-bold text-foreground mb-2">
                     {story.petName} & {story.familyName}
                   </h3>
@@ -95,7 +95,7 @@ const SuccessStories = () => {
 
                 {/* Action */}
                 <div className="text-center">
-                  <Button variant="outline" size="sm" className="w-full">
+                  <Button variant="outline" size="sm" className="w-full hover-scale">
                     <Heart className="w-4 h-4 mr-2" />
                     Read Full Story
                   </Button>
@@ -115,10 +115,10 @@ const SuccessStories = () => {
             and find your perfect companion today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="default" size="lg">
+            <Button variant="default" size="lg" className="hover-scale">
               Start Adoption Process
             </Button>
-            <Button variant="outline" size="lg">
+            <Button variant="outline" size="lg" className="hover-scale">
               Share Your Story
             </Button>
           </div>

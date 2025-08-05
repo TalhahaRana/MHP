@@ -63,7 +63,7 @@ const GetInvolved = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {ways.map((way, index) => (
-            <Card key={index} className="group hover:shadow-warm transition-all duration-300 hover:-translate-y-2 border-border/50">
+            <Card key={index} className="group hover:shadow-warm transition-all duration-300 hover:-translate-y-2 border-border/50 animate-scale-in">
               <CardContent className="p-8 text-center">
                 <div className={`w-16 h-16 ${way.color} rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300`}>
                   <way.icon className="w-8 h-8 text-white" />
@@ -77,7 +77,7 @@ const GetInvolved = () => {
                 
                 <Button 
                   variant={way.color === "bg-primary" ? "default" : "donate"}
-                  className="w-full group-hover:scale-105 transition-transform duration-300"
+                  className="w-full group-hover:scale-105 transition-transform duration-300 hover-scale"
                 >
                   {way.action}
                 </Button>

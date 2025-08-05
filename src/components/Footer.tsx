@@ -22,13 +22,13 @@ const Footer = () => {
               Every animal deserves love and a second chance.
             </p>
             <div className="flex space-x-4">
-              <Button size="sm" variant="ghost" className="p-2 text-background hover:text-primary hover:bg-background/10">
+              <Button size="sm" variant="ghost" className="p-2 text-background hover:text-primary hover:bg-background/10 hover-scale">
                 <Facebook className="w-5 h-5" />
               </Button>
-              <Button size="sm" variant="ghost" className="p-2 text-background hover:text-primary hover:bg-background/10">
+              <Button size="sm" variant="ghost" className="p-2 text-background hover:text-primary hover:bg-background/10 hover-scale">
                 <Instagram className="w-5 h-5" />
               </Button>
-              <Button size="sm" variant="ghost" className="p-2 text-background hover:text-primary hover:bg-background/10">
+              <Button size="sm" variant="ghost" className="p-2 text-background hover:text-primary hover:bg-background/10 hover-scale">
                 <Twitter className="w-5 h-5" />
               </Button>
             </div>
@@ -148,7 +148,7 @@ const Footer = () => {
                 placeholder="Enter your email"
                 className="flex-1 px-4 py-2 rounded-md text-foreground border border-background/20 focus:outline-none focus:border-primary"
               />
-              <Button variant="default" className="bg-primary hover:bg-primary/90">
+              <Button variant="default" className="bg-primary hover:bg-primary/90 hover-scale">
                 Subscribe
               </Button>
             </div>

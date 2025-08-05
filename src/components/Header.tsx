@@ -38,10 +38,10 @@ const Header = () => {
 
           {/* Action Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline" size="sm">
+            <Button variant="outline" size="sm" className="hover-scale">
               Sponsor a Pet
             </Button>
-            <Button variant="donate" size="sm">
+            <Button variant="donate" size="sm" className="animate-glow">
               <Heart className="w-4 h-4 mr-2" />
               Donate Now
             </Button>
