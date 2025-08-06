@@ -28,6 +28,9 @@ const Header = () => {
             <a href="#animals" className="text-foreground hover:text-primary transition-colors">
               Find a Pet
             </a>
+            <a href="/story" className="text-foreground hover:text-primary transition-colors">
+              Our Story
+            </a>
             <a href="#get-involved" className="text-foreground hover:text-primary transition-colors">
               Get Involved
             </a>
@@ -73,6 +76,13 @@ const Header = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Find a Pet
+              </a>
+              <a
+                href="/story"
+                className="text-foreground hover:text-primary transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Our Story
               </a>
               <a
                 href="#get-involved"
