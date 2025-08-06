@@ -22,7 +22,7 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#about" className="text-foreground hover:text-primary transition-colors">
+            <a href="/about" className="text-foreground hover:text-primary transition-colors">
               About Us
             </a>
             <a href="#animals" className="text-foreground hover:text-primary transition-colors">
@@ -61,7 +61,7 @@ const Header = () => {
           <div className="md:hidden mt-4 pb-4 border-t border-border pt-4">
             <nav className="flex flex-col space-y-4">
               <a
-                href="#about"
+                href="/about"
                 className="text-foreground hover:text-primary transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
