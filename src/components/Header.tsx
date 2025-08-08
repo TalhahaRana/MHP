@@ -14,7 +14,7 @@ const Header = () => {
             <div className="w-10 h-10 bg-gradient-warm rounded-full flex items-center justify-center">
               {/* <Heart className="w-6 h-6 text-white" /> */}
               <a href="/">
-                <img src="/public/logo.jpg" alt="Logo" className="w-8 h-8" />
+                <img src="/src/assets/logo.jpg" alt="Logo" className="w-8 h-8" />
               </a>
             </div>
             <div>
