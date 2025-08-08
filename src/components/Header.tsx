@@ -12,10 +12,13 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-gradient-warm rounded-full flex items-center justify-center">
-              <Heart className="w-6 h-6 text-white" />
+              {/* <Heart className="w-6 h-6 text-white" /> */}
+              <a href="/">
+                <img src="/public/logo.jpg" alt="Logo" className="w-8 h-8" />
+              </a>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">Fur-Ever Friends</h1>
+              <h1 className="text-xl font-bold text-foreground">Mission Hunger Paws</h1>
               <p className="text-xs text-muted-foreground">Foundation</p>
             </div>
           </div>
@@ -25,17 +28,12 @@ const Header = () => {
             <a href="/about" className="text-foreground hover:text-primary transition-colors">
               About Us
             </a>
-            <a href="#animals" className="text-foreground hover:text-primary transition-colors">
-              Find a Pet
-            </a>
+            
             <a href="/story" className="text-foreground hover:text-primary transition-colors">
               Our Story
             </a>
             <a href="#get-involved" className="text-foreground hover:text-primary transition-colors">
               Get Involved
-            </a>
-            <a href="#stories" className="text-foreground hover:text-primary transition-colors">
-              Success Stories
             </a>
           </nav>
 

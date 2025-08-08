@@ -4,13 +4,6 @@ import { Heart, HandHeart, DollarSign, Calendar, Users, Gift } from "lucide-reac
 
 const ways = [
   {
-    icon: Heart,
-    title: "Adopt",
-    description: "Give a rescued animal a loving forever home and gain a loyal companion for life.",
-    action: "Browse Pets",
-    color: "bg-primary",
-  },
-  {
     icon: DollarSign,
     title: "Donate",
     description: "Your contribution helps us provide medical care, food, and shelter for animals in need.",
@@ -22,20 +15,6 @@ const ways = [
     title: "Volunteer",
     description: "Share your time and skills to help care for animals and support our mission.",
     action: "Join Us",
-    color: "bg-primary",
-  },
-  {
-    icon: Gift,
-    title: "Sponsor",
-    description: "Sponsor an animal's care while they wait for adoption or provide ongoing support.",
-    action: "Sponsor Pet",
-    color: "bg-accent",
-  },
-  {
-    icon: Calendar,
-    title: "Foster",
-    description: "Provide temporary care for animals who need extra attention or recovery time.",
-    action: "Learn More",
     color: "bg-primary",
   },
   {
@@ -88,12 +67,12 @@ const GetInvolved = () => {
 
         {/* Emergency Banner */}
         <div className="mt-16 bg-gradient-warm rounded-2xl p-8 text-center text-white">
-          <h3 className="text-3xl font-bold mb-4">Emergency Rescue Fund</h3>
+          <h3 className="text-3xl font-bold mb-4">Shelter Fund</h3>
           <p className="text-xl mb-6 opacity-90">
             Help us respond to urgent rescue situations and provide immediate medical care.
           </p>
           <Button variant="outline" size="lg" className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20">
-            Donate to Emergency Fund
+            Shelter Fund
           </Button>
         </div>
       </div>

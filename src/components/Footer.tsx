@@ -13,13 +13,12 @@ const Footer = () => {
                 <Heart className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-bold">Fur-Ever Friends</h3>
+                <h3 className="text-xl font-bold">Mission Hungry Paws</h3>
                 <p className="text-sm text-background/70">Foundation</p>
               </div>
             </div>
             <p className="text-background/80 leading-relaxed mb-6">
-              Rescuing, rehabilitating, and rehoming animals in need for over 15 years. 
-              Every animal deserves love and a second chance.
+             Since 2020, we’ve been feeding the forgotten, rescuing the vulnerable, and building a future where no paw is left behind.
             </p>
             <div className="flex space-x-4">
               <Button size="sm" variant="ghost" className="p-2 text-background hover:text-primary hover:bg-background/10 hover-scale">
@@ -30,6 +29,18 @@ const Footer = () => {
               </Button>
               <Button size="sm" variant="ghost" className="p-2 text-background hover:text-primary hover:bg-background/10 hover-scale">
                 <Twitter className="w-5 h-5" />
+              </Button>
+              <Button size="sm" variant="ghost" className="p-2 text-background hover:text-primary hover:bg-background/10 hover-scale">
+                {/* TikTok SVG */}
+                <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16.5 3v2.25a3.75 3.75 0 0 0 3.75 3.75h.75v2.25a7.5 7.5 0 1 1-7.5-7.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </Button>
+              <Button size="sm" variant="ghost" className="p-2 text-background hover:text-primary hover:bg-background/10 hover-scale">
+                {/* Snapchat SVG */}
+                <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2c2.5 0 4.5 2 4.5 4.5 0 2.2 1.8 4 4 4 .3 0 .5.2.5.5s-.2.5-.5.5c-2.2 0-4 1.8-4 4 0 2.5-2 4.5-4.5 4.5S7.5 17.5 7.5 15c0-2.2-1.8-4-4-4-.3 0-.5-.2-.5-.5s.2-.5.5-.5c2.2 0 4-1.8 4-4C7.5 4 9.5 2 12 2z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
               </Button>
             </div>
           </div>
@@ -67,7 +78,7 @@ const Footer = () => {
           </div>
 
           {/* Services */}
-          <div>
+          {/* <div>
             <h4 className="text-lg font-semibold mb-6">Our Services</h4>
             <ul className="space-y-3">
               <li>
@@ -96,7 +107,7 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Contact */}
           <div>
@@ -136,7 +147,7 @@ const Footer = () => {
         </div>
 
         {/* Newsletter */}
-        <div className="border-t border-background/20 pt-8 mb-8">
+        {/* <div className="border-t border-background/20 pt-8 mb-8">
           <div className="text-center max-w-2xl mx-auto">
             <h4 className="text-xl font-semibold mb-4">Stay Updated</h4>
             <p className="text-background/80 mb-6">
@@ -153,10 +164,10 @@ const Footer = () => {
               </Button>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Bottom */}
-        <div className="border-t border-background/20 pt-8 text-center">
+        {/* <div className="border-t border-background/20 pt-8 text-center">
           <p className="text-background/60 text-sm">
             © 2024 Fur-Ever Friends Foundation. All rights reserved. | 
             <a href="#" className="hover:text-primary transition-colors ml-1">Privacy Policy</a> | 
@@ -165,7 +176,7 @@ const Footer = () => {
           <p className="text-background/60 text-sm mt-2">
             Fur-Ever Friends Foundation is a 501(c)(3) non-profit organization. EIN: 12-3456789
           </p>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

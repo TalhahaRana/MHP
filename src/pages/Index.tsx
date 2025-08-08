@@ -21,11 +21,10 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Help Us Build Their Dream Home
+              Every Paw Deserves Love & Care
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              We're building a state-of-the-art shelter to provide the best care for animals in need. 
-              Join us in creating a sanctuary where every animal gets a second chance.
+              Help us feed the hungry, rescue the forgotten, and build a shelter where every paw feels safe.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="/shelter">
@@ -41,8 +40,8 @@ const Index = () => {
           </div>
         </div>
       </section>
-      <FeaturedAnimals />
-      <ImpactSection />
+      {/* <FeaturedAnimals /> */}
+      {/* <ImpactSection /> */}
       <GetInvolved />
       <SuccessStories />
       <Footer />

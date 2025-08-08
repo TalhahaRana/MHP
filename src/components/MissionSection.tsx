@@ -25,9 +25,7 @@ const MissionSection = () => {
                 <span className="block text-primary">Changes Lives</span>
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                Every day, we witness the incredible transformation that happens when 
-                an animal finds love, care, and a forever home. Our dedicated team works 
-                tirelessly to ensure no animal is left behind.
+                Every act of kindness sparks a chain reaction. Whether it's offering a warm meal or rescuing an injured stray our mission brings hope and healing to animals—and to the hearts of those who help them.
               </p>
             </div>
 
@@ -38,8 +36,8 @@ const MissionSection = () => {
                   <Heart className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-semibold text-foreground mb-2">Rescue with Love</h4>
-                  <p className="text-muted-foreground">Emergency response to animals in crisis situations</p>
+                  <h4 className="text-xl font-semibold text-foreground mb-2">Feed the Hungry</h4>
+                  <p className="text-muted-foreground">Daily street feeding drives ensure no stray goes to sleep on an empty stomach.</p>
                 </div>
               </div>
 
@@ -48,8 +46,8 @@ const MissionSection = () => {
                   <Shield className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-semibold text-foreground mb-2">Rehabilitate with Care</h4>
-                  <p className="text-muted-foreground">Medical care and behavioral support for healing</p>
+                  <h4 className="text-xl font-semibold text-foreground mb-2">Rescue & Heal</h4>
+                  <p className="text-muted-foreground">From injury to recovery, we provide critical care and medical treatment</p>
                 </div>
               </div>
 
@@ -58,15 +56,11 @@ const MissionSection = () => {
                   <Users className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h4 className="text-xl font-semibold text-foreground mb-2">Rehome with Purpose</h4>
-                  <p className="text-muted-foreground">Careful matching to ensure lifelong happiness</p>
+                  <h4 className="text-xl font-semibold text-foreground mb-2">Inspire Compassion</h4>
+                  <p className="text-muted-foreground">CarOur work brings communities together through empathy and action.</p>
                 </div>
               </div>
             </div>
-
-            <Button variant="hero" size="lg" className="hover-scale">
-              Learn About Our Impact
-            </Button>
           </div>
 
           {/* Visual Side with Overlapping Circles */}

@@ -43,15 +43,15 @@ const Hero = () => {
         {/* Stats */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover-scale">
-            <div className="text-3xl font-bold text-accent mb-2">2,500+</div>
-            <div className="text-white/80">Animals Rescued</div>
+            <div className="text-3xl font-bold text-accent mb-2">10,000+</div>
+            <div className="text-white/80">Meals Served to Strays</div>
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover-scale">
-            <div className="text-3xl font-bold text-accent mb-2">1,800+</div>
-            <div className="text-white/80">Forever Homes</div>
+            <div className="text-3xl font-bold text-accent mb-2">500+</div>
+            <div className="text-white/80">Rescues and Counting</div>
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 hover-scale">
-            <div className="text-3xl font-bold text-accent mb-2">15+</div>
+            <div className="text-3xl font-bold text-accent mb-2">5+</div>
             <div className="text-white/80">Years of Service</div>
           </div>
         </div>

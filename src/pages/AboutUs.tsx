@@ -49,45 +49,164 @@ const AboutUs = () => {
       <section className="pt-24 pb-16 bg-gradient-warm">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-            About Our Mission
+            About Us
           </h1>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto">
-            Learn about our journey, our team, and our unwavering commitment to animal welfare
-          </p>
         </div>
       </section>
 
-      {/* Main About Section */}
-      <About />
+      {/* Mission Section */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8">
+              Mission Hungry Paws – Because Every Paw Deserves Love
+            </h2>
+            
+            <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+              Mission Hungry Paws is a 100% non-profit animal welfare foundation founded in 2020 with one simple, powerful goal:
+            </p>
+            
+            <div className="bg-primary/10 rounded-lg p-8 mb-12">
+              <p className="text-2xl font-semibold text-primary">
+                To ensure no stray animal sleeps hungry or feels unloved.
+              </p>
+            </div>
+            
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              What began as one person's act of kindness—feeding stray animals on the streets—has grown into a full-scale mission supported by over 100 active volunteers and a compassionate community that believes every life matters.
+            </p>
+          </div>
+        </div>
+      </section>
 
-      {/* Our Story Section */}
+      {/* What We Do Section */}
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12 text-foreground">Our Story</h2>
+            <h2 className="text-4xl font-bold text-center mb-12 text-foreground">What We Do</h2>
             
-            <div className="prose prose-lg max-w-none text-muted-foreground">
-              <p className="text-xl leading-relaxed mb-6">
-                Founded in 2008 by a group of passionate animal lovers, Fur-Ever Friends Foundation 
-                began as a small rescue operation in a converted garage. What started with saving 
-                just a few abandoned puppies has grown into one of the region's most trusted animal 
-                welfare organizations.
-              </p>
+            <p className="text-lg text-muted-foreground mb-8 text-center">
+              We are dedicated to feeding, rescuing, and soon sheltering stray animals who have no one else to care for them. Our work includes:
+            </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="flex items-start space-x-4 p-6 bg-background rounded-lg">
+                <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center mt-1">
+                  <Heart className="w-4 h-4 text-white" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-foreground mb-2">Daily Feeding</h4>
+                  <p className="text-muted-foreground">Providing daily meals to stray dogs and cats</p>
+                </div>
+              </div>
               
-              <p className="text-lg leading-relaxed mb-6">
-                Our founder, Sarah Johnson, witnessed the devastating impact of animal abandonment 
-                in her community and knew something had to be done. With the support of local 
-                veterinarians and volunteers, we established our first official rescue center, 
-                implementing a comprehensive approach to animal care that addressed not just 
-                immediate needs, but long-term welfare.
-              </p>
+              <div className="flex items-start space-x-4 p-6 bg-background rounded-lg">
+                <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center mt-1">
+                  <Heart className="w-4 h-4 text-white" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-foreground mb-2">Emergency Rescue</h4>
+                  <p className="text-muted-foreground">Carrying out emergency rescues and basic medical care</p>
+                </div>
+              </div>
               
-              <p className="text-lg leading-relaxed">
-                Today, we operate three full-service facilities, a mobile veterinary clinic, 
-                and an emergency response team. Our no-kill philosophy and commitment to finding 
-                the perfect match for every animal has resulted in over 2,500 successful adoptions 
-                and countless lives saved.
+              <div className="flex items-start space-x-4 p-6 bg-background rounded-lg">
+                <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center mt-1">
+                  <Heart className="w-4 h-4 text-white" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-foreground mb-2">Building Shelter</h4>
+                  <p className="text-muted-foreground">Building a permanent shelter to house, heal, and rehome stray animals</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start space-x-4 p-6 bg-background rounded-lg">
+                <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center mt-1">
+                  <Heart className="w-4 h-4 text-white" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-foreground mb-2">Awareness</h4>
+                  <p className="text-muted-foreground">Spreading awareness about compassion toward street animals</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Impact Section */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl font-bold mb-12 text-foreground">Our Impact So Far</h2>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <Card className="text-center p-6 hover:shadow-soft transition-all duration-300 hover:-translate-y-1 hover-scale group">
+                <CardContent className="p-0">
+                  <div className="text-4xl mb-2">🥣</div>
+                  <div className="text-3xl font-bold text-primary mb-2">10,000+</div>
+                  <div className="text-muted-foreground">meals served to hungry stray animals</div>
+                </CardContent>
+              </Card>
+              
+              <Card className="text-center p-6 hover:shadow-soft transition-all duration-300 hover:-translate-y-1 hover-scale group">
+                <CardContent className="p-0">
+                  <div className="text-4xl mb-2">🐾</div>
+                  <div className="text-3xl font-bold text-primary mb-2">500+</div>
+                  <div className="text-muted-foreground">rescues completed</div>
+                </CardContent>
+              </Card>
+              
+              <Card className="text-center p-6 hover:shadow-soft transition-all duration-300 hover:-translate-y-1 hover-scale group">
+                <CardContent className="p-0">
+                  <div className="text-4xl mb-2">🤝</div>
+                  <div className="text-3xl font-bold text-primary mb-2">100+</div>
+                  <div className="text-muted-foreground">active volunteers across our mission</div>
+                </CardContent>
+              </Card>
+              
+              <Card className="text-center p-6 hover:shadow-soft transition-all duration-300 hover:-translate-y-1 hover-scale group">
+                <CardContent className="p-0">
+                  <div className="text-4xl mb-2">💯</div>
+                  <div className="text-3xl font-bold text-primary mb-2">100%</div>
+                  <div className="text-muted-foreground">non-profit and community-funded</div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why It Matters Section */}
+      <section className="py-20 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl font-bold mb-8 text-foreground">Why It Matters</h2>
+            
+            <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+              Street animals face hunger, injury, and abandonment every day. At Mission Hungry Paws, we believe they deserve more—they deserve love, dignity, and care. With the shelter underway, we're laying the foundation for long-term change.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Join the Mission Section */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl font-bold mb-8 text-foreground">Join the Mission</h2>
+            
+            <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+              Whether you choose to donate, volunteer, or simply spread the word—your support helps us move one step closer to a world where no paw is left behind.
+            </p>
+            
+            <div className="bg-primary/10 rounded-lg p-8">
+              <p className="text-xl font-semibold text-primary mb-6">
+                🌟 Together, we can build a kinder world for animals—one meal, one rescue, and one shelter at a time.
               </p>
+              <Button size="lg" className="hover-scale">
+                Donate Now
+              </Button>
             </div>
           </div>
         </div>
